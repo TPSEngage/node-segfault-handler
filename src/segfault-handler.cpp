@@ -20,11 +20,13 @@
 #else
 #include <assert.h>
 #include <errno.h>
-#include <execinfo.h>
 #include <signal.h>
 #include <stdarg.h>
 #include <unistd.h>
 #include <pthread.h>
+#endif
+#ifdef __linux__
+#include <execinfo.h>
 #endif
 
 using namespace v8;
