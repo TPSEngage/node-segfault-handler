@@ -25,9 +25,6 @@
 #include <unistd.h>
 #include <pthread.h>
 #endif
-#ifdef __GCLIBC__
-#include <execinfo.h>
-#endif
 
 using namespace v8;
 using namespace Nan;
