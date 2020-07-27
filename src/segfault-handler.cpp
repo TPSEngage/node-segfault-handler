@@ -18,6 +18,7 @@
 #include <process.h>
 #include <windows.h>
 #else
+#include <execinfo.h>
 #include <assert.h>
 #include <errno.h>
 #include <signal.h>
