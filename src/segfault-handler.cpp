@@ -25,7 +25,7 @@
 #include <unistd.h>
 #include <pthread.h>
 #endif
-#ifdef __linux__
+#ifdef __GCLIBC__
 #include <execinfo.h>
 #endif
 
